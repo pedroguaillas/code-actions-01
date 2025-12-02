@@ -1,0 +1,14 @@
+name: "Deploy Pet Project"
+on:
+  push:
+    branches: ["main"]
+jobs:
+  deploy-pet-project:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout code
+        uses: actions/checkout@v2
+        run: echo "Hacemos el pull"
+        run: echo "Correr migraciones"
+        run: echo "Generar binarios"
+        run: echo "Publicar versión"
