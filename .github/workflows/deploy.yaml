@@ -6,7 +6,4 @@ jobs:
   deploy-pet-project:
     runs-on: ubuntu-latest
     steps:
-      - run: echo "Hacemos el pull"
-      - run: echo "Correr migraciones"
-      - run: echo "Generar binarios"
-      - run: echo "Publicar versión"
+      - run: echo "Primer commit para corregir"
